@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy bypass -windowStyle hidden -noprofile "{ (new-object system.net.webclient).downloadfile('https://upload.wikimedia.org/wikipedia/commons/7/74/A-Cat.jpg', 'c:\temp\cat.jpg') }"
